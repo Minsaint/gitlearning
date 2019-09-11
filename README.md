@@ -1,3 +1,4 @@
+## 常用git命令
 -- git init 初始化一个空的git仓库
 
 -- git add filename   添加一个文件到暂存区  filename为要添加的文件名称
