@@ -33,3 +33,6 @@
 
 ## 新分支
 this is a new branch
+
+## 解决冲突
+Creating a new branch is quick AND simple.
