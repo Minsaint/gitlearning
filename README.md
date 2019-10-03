@@ -36,3 +36,5 @@ this is a new branch
 
 ## 解决冲突
 Creating a new branch is quick and simple.
+## 多人协作dev测试
+git pull
