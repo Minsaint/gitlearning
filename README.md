@@ -36,3 +36,7 @@ this is a new branch
 
 ## 解决冲突
 Creating a new branch is quick and simple.
+## 存储当前分支修改
+git stash
+## 多人协作
+git pull
