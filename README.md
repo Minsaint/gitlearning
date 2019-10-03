@@ -38,5 +38,9 @@ this is a new branch
 Creating a new branch is quick and simple.
 ## 存储当前分支修改
 git stash
+<<<<<<< HEAD
 ## 自身的修改多人协作
+=======
+## 来自另外一个团队成员的修改多人协作
+>>>>>>> 07a978070838a87bf5ad51974e595651bbcf3b05
 git pull
