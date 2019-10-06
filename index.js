@@ -88,3 +88,16 @@ class Promise_Self {
         this.onRejectedCallback.forEach(fn => fn(err));
     }
 }
+const instance_of = function (instance, constructor) {
+    let instance_proto = instance.__proto__;
+    let constructor_proto = constructor.prototype;
+
+    while(true) {
+        // 找到终点找不到返回false
+        if (instance_proto === null) {return false};
+        // 找到返回true
+        if (instance_proto === constructor_proto) {return true};
+        // 沿着原型链向上查找
+        instance_proto = instance_proto.__proto__;
+    }
+}
